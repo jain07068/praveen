@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Info Form</title>
+        <link href="/static/style.css" rel="stylesheet"/>
+        <!-- BOOTSTRAP CSS -->
+        <link id="style" href="/static/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+
+    <body>
+
+        <!-- GLOBAL-LOADER -->
+        <div class="loading" style="display:none;">Loading&#8230;</div>
+
+        {% comment %} <link href="contact-form.css" rel="stylesheet"> {% endcomment %}
+
+        <div class="fcf-body">
+
+            <div id="fcf-form">
+            <h3 class="fcf-h3">Required Info</h3>
+
+                <form id="required_info_section" class="fcf-form-class" method="post" action="/info/">
+                    {% csrf_token %}
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">Your name</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="first_name" name="first_name" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Your email address</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="email_address" name="email_address" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Your mobile number</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="mobile_number" name="mobile_number" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Feedback</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="description" name="description" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Response</label>
+                        <div class="fcf-input-group">
+                            <input type="radio" id="response_status1" name="response_status" value="1" required> Not Good
+                            <input type="radio" id="response_status1" name="response_status" value="2" required> Good
+                            <input type="radio" id="response_status1" name="response_status" value="3" required> Perfect
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
+<script src="/static/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+<script>
+    $(document).ready(function(){
+
+        $('#required_info_section').validate({
+
+            rules : {
+
+            },
+            submitHandler : function(){
+
+                let add_info_form = $('#required_info_section').attr('action');
+                $.ajax({
+                    url : add_info_form,
+                    type : 'POST',
+                    dataType : 'json',
+                    data : $('#required_info_section').serialize(),
+                    beforeSend: function() {
+                        // setting a timeout
+                        $('.loading').show();
+                    },
+                    success : function(data){
+                        $('.loading').hide();
+                        
+                        if(data.error == 0){
+
+                            bootbox.alert(data.msg, function(){
+
+                                location.reload();
+                            });
+                        }else{
+
+                            bootbox.alert(data.msg);
+                        }
+                    },
+                    complete: function() {
+                        $('.loading').hide();
+                    },
+                });
+            }
+        });
+    });
+</script>
