@@ -3,9 +3,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Info Form</title>
-        <link href="/static/style.css" rel="stylesheet"/>
+        <link href="/static/style.css?v=1.0" rel="stylesheet"/>
         <!-- BOOTSTRAP CSS -->
         <link id="style" href="/static/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     </head>
 
     <body>
@@ -52,12 +53,44 @@
 
                     <div class="fcf-form-group">
                         <label for="Message" class="fcf-label">Response</label>
-                        <div class="fcf-input-group">
-                            <input type="radio" id="response_status1" name="response_status" value="1" required> <img src="/static/assets/images/sad_not_good.jpeg">
-                            <input type="radio" id="response_status1" name="response_status" value="2" required> <img src="/static/assets/images/good.jpeg">
-                            <input type="radio" id="response_status1" name="response_status" value="3" required> <img src="/static/assets/images/perfect.jpeg">
+                        {% comment %} <div class="fcf-input-group">
+                            <input type="radio" id="response_status1" name="response_status" value="1" required> <img src="/static/assets/images/sad_emoji.jpg" style="height:58px">
+                            <input type="radio" id="response_status1" name="response_status" value="2" required> <img src="/static/assets/images/good.jpg" style="height:58px">
+                            <input type="radio" id="response_status1" name="response_status" value="3" required> <img src="/static/assets/images/perfect.jpg" style="height:58px">
+                        </div> {% endcomment %}
+                        <div class="container parent">
+                            <div class="row">
+                                <div class='col text-center'>
+                                    <input type="radio" name="response_status" id="img1" class="d-none imgbgchk" value="0">
+                                    <label for="img1">
+                                        <img src="/static/assets/images/sad_emoji.jpg">
+                                        <div class="tick_container">
+                                        <div class="tick"><i class="fa fa-check"></i></div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class='col text-center'>
+                                    <input type="radio" name="response_status" id="img2" class="d-none imgbgchk" value="1">
+                                    <label for="img2">
+                                        <img src="/static/assets/images/good.jpg">
+                                        <div class="tick_container">
+                                        <div class="tick"><i class="fa fa-check"></i></div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class='col text-center'>
+                                    <input type="radio" name="response_status" id="img3" class="d-none imgbgchk" value="2">
+                                    <label for="img3">
+                                        <img src="/static/assets/images/perfect.jpg">
+                                        <div class="tick_container">
+                                        <div class="tick"><i class="fa fa-check"></i></div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
 
                     <div class="fcf-form-group">
                         <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
