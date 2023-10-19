@@ -22,7 +22,7 @@ def addEntry(request):
             else:
                 print(serializer.errors)
                 res['error'] = 1
-                res['msg'] = 'Resonse is not saved.'
+                res['msg'] = 'Resonse is not saved'
         
         else:
             return render(request, 'entry/add_info_form.html', {})
