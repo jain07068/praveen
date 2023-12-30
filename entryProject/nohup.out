@@ -1,0 +1,164 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 29, 2023 - 21:19:44
+Django version 4.2.6, using settings 'entryProject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+[29/Dec/2023 21:20:26] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+[29/Dec/2023 21:21:57] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+[29/Dec/2023 21:24:13] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+[29/Dec/2023 21:27:43] "GET / HTTP/1.1" 200 6558
+[29/Dec/2023 21:36:32] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+[29/Dec/2023 21:36:34] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[29/Dec/2023 21:36:34] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[29/Dec/2023 21:36:34] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[29/Dec/2023 21:36:34] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[29/Dec/2023 21:36:34] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[29/Dec/2023 21:36:34] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[29/Dec/2023 21:36:34] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[29/Dec/2023 21:50:00] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+[29/Dec/2023 21:50:28] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+[29/Dec/2023 21:50:31] "GET /admin/ HTTP/1.1" 302 0
+[29/Dec/2023 21:50:31] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+[29/Dec/2023 21:50:32] "GET / HTTP/1.1" 200 6558
+[29/Dec/2023 21:50:33] "GET /static/style.css?v=1.0 HTTP/1.1" 200 7723
+[29/Dec/2023 21:50:33] "GET /static/assets/images/sad_emoji.jpg HTTP/1.1" 200 14541
+[29/Dec/2023 21:50:33] "GET /static/assets/images/good.jpg HTTP/1.1" 200 13906
+[29/Dec/2023 21:50:33] "GET /static/assets/images/perfect.jpg HTTP/1.1" 200 16809
+[29/Dec/2023 21:50:33] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 163901
+[29/Dec/2023 21:50:33] "GET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 59219
+[29/Dec/2023 21:51:08] "POST /info/ HTTP/1.1" 200 56
+[29/Dec/2023 21:51:10] "GET / HTTP/1.1" 200 6558
+[29/Dec/2023 21:51:35] "GET /static/assets/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 404 1884
+[29/Dec/2023 21:51:35] "GET /static/assets/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1890
+[29/Dec/2023 21:51:57] "POST /info/ HTTP/1.1" 200 56
+[29/Dec/2023 21:52:24] "GET / HTTP/1.1" 200 6558
+[29/Dec/2023 22:07:45] "GET / HTTP/1.1" 200 6558
+[29/Dec/2023 22:13:28] "GET / HTTP/1.1" 200 6558
+[29/Dec/2023 22:13:28] "GET /static/style.css?v=1.0 HTTP/1.1" 200 7723
+[29/Dec/2023 22:13:29] "GET /static/assets/images/sad_emoji.jpg HTTP/1.1" 200 14541
+[29/Dec/2023 22:13:29] "GET /static/assets/images/good.jpg HTTP/1.1" 200 13906
+[29/Dec/2023 22:13:29] "GET /static/assets/images/perfect.jpg HTTP/1.1" 200 16809
+[29/Dec/2023 22:13:29] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 163901
+[29/Dec/2023 22:13:29] "GET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 59219
+Not Found: /favicon.ico
+[29/Dec/2023 22:13:29] "GET /favicon.ico HTTP/1.1" 404 2420
+[29/Dec/2023 22:27:46] code 400, message Bad request version ('À\x14À')
+[29/Dec/2023 22:27:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+[29/Dec/2023 22:27:46] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x94\x05íÎp%\x17?À¥¡ÁÏl£ýNþo\x00+\x93µ\x82\x89L\x05x/&ÛD\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[29/Dec/2023 22:27:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+[29/Dec/2023 22:27:47] "GET / HTTP/1.1" 200 6558
+[29/Dec/2023 22:27:47] code 400, message Bad request version ('À\x14À')
+[29/Dec/2023 22:27:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[29/Dec/2023 23:10:15] "GET / HTTP/1.1" 200 6558
+[30/Dec/2023 01:01:26] code 400, message Bad request version ('À\x13À')
+[30/Dec/2023 01:01:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 01:01:26] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x0fÚ>Ï\x88\x8c«DJm*åÐ\x12ZÚ¥Û')
+[30/Dec/2023 01:01:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 01:24:51] code 400, message Bad request version ('À\x13À')
+[30/Dec/2023 01:24:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 01:24:51] code 400, message Bad request version ('À(À$À\x14À')
+[30/Dec/2023 01:24:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 04:37:59] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03>o"\x05ûMoâ\x9b\x04\xadxæ¡*\x99d¯\x11ìÁB9Á"S\x18Et¡zµ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[30/Dec/2023 04:37:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 05:44:22] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+[30/Dec/2023 05:44:22] "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+[30/Dec/2023 05:44:22] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+[30/Dec/2023 05:44:22] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+[30/Dec/2023 05:44:22] "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[30/Dec/2023 05:44:22] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+[30/Dec/2023 05:44:22] "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+[30/Dec/2023 05:44:22] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+Not Found: /favicon.ico
+[30/Dec/2023 05:44:23] "GET /favicon.ico HTTP/1.1" 404 2420
+[30/Dec/2023 06:53:09] "GET / HTTP/1.1" 200 6558
+[30/Dec/2023 06:53:10] "GET /static/style.css?v=1.0 HTTP/1.1" 304 0
+[30/Dec/2023 06:53:10] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[30/Dec/2023 06:53:12] "GET /static/assets/images/sad_emoji.jpg HTTP/1.1" 304 0
+[30/Dec/2023 06:53:23] "GET / HTTP/1.1" 200 6558
+[30/Dec/2023 06:53:28,203] - Broken pipe from ('152.58.91.123', 57648)
+[30/Dec/2023 06:53:48] "GET / HTTP/1.1" 200 6558
+[30/Dec/2023 06:54:04] "GET / HTTP/1.1" 200 6558
+[30/Dec/2023 06:54:09] code 400, message Bad request version ('À\x14À')
+[30/Dec/2023 06:54:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:10] code 400, message Bad request version ('À\x14À')
+[30/Dec/2023 06:54:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:10] "GET / HTTP/1.1" 200 6558
+[30/Dec/2023 06:54:10] code 400, message Bad request version ('À\x14À')
+[30/Dec/2023 06:54:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:14] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x00\x00\x13\x00\x11\x00\x00\x0ecomeonindia.in\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[30/Dec/2023 06:54:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:14] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x00\x00\x13\x00\x11\x00\x00\x0ecomeonindia.in\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[30/Dec/2023 06:54:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:14] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93jj\x00\x00\x00\x00\x00\x13\x00\x11\x00\x00\x0ecomeonindia.in\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[30/Dec/2023 06:54:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:14] code 400, message Bad request version ('¦a\x8aîÿ+\x98Kv\x7fN¹Mø\x9fÉb\x8e\x9bÇn÷F\x00"ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[30/Dec/2023 06:54:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:14] code 400, message Bad request version ('¾\x00"ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[30/Dec/2023 06:54:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:14] code 400, message Bad request version ('Ê\x00\x0e¿/"Ô\x82þº#ùüÈ&¥;é\x94b\x97\x7fq!y>^\x8bÖ&\x84\x9b\x00"êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[30/Dec/2023 06:54:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:18] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x8a\x8a\x00\x00\x00\x00\x00\x13\x00\x11\x00\x00\x0ecomeonindia.in\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[30/Dec/2023 06:54:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:18] code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x00\x00\x13\x00\x11\x00\x00\x0ecomeonindia.in\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[30/Dec/2023 06:54:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:18] code 400, message Bad request version ('A¡¢Æ\x98\x8b×ZÙÅæ\x9f®kP¡F\x00"JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[30/Dec/2023 06:54:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:18] code 400, message Bad request version ('$~(ß|\x86SQi²\x94Ø¥\x86jg|\x88·Cç`?>ëzù\x8bâ2\x12×\x00"**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[30/Dec/2023 06:54:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:18] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93::\x00\x00\x00\x00\x00\x13\x00\x11\x00\x00\x0ecomeonindia.in\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[30/Dec/2023 06:54:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:18] code 400, message Bad request version ('I\x98ÓyóqÑûW·]\x8bÓÛ&m\x9eq\x8c\x01Ç\x19H\xad\x03¸u©BÉÌÂ\x00"JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+[30/Dec/2023 06:54:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:45] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01¤zz\x00\x00\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00Di\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06\x9a\x9a\x03\x04\x03\x03\x00')
+[30/Dec/2023 06:54:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:45] code 400, message Bad request version ('D">DÂ÷¶\x08x¸\x83Yõ6³\x91ÊÙ')
+[30/Dec/2023 06:54:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:45] code 400, message Bad request version ('¶\x92Åß^\x90z,\x0fú8')
+[30/Dec/2023 06:54:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:45] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x021\x01\x00\x02-\x03\x03\x8c»:§z÷J\x8d`\x94\x8f8g¨é\x13\x8fø\x9c«92ÓíütB\x18]ÒÙm')
+[30/Dec/2023 06:54:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:45] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01¤\x8a\x8a\x00\x00Di\x00\x05\x00\x03\x02h2\x00')
+[30/Dec/2023 06:54:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:54:45] code 400, message Bad request version ('\x90ÖÌÖ°\x8brð,1\x00>ÈSü¹\x815´þl')
+[30/Dec/2023 06:54:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:56:18] code 400, message Bad request version ('eý\x8a\x9ft')
+[30/Dec/2023 06:56:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:56:18] code 400, message Bad request version ('\x9dÑ\x01|\x04Åñv2\x8f\x80ô\x89\x10R')
+[30/Dec/2023 06:56:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:56:21] code 400, message Bad request version ("ø¼\x9dü»Û\x97\x06IF\x11±Ùp\x19b\x97¢@qjv÷ó²\x19'âÆ!x]\x00°W]-\x06\x0eº")
+[30/Dec/2023 06:56:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:56:21] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x11\x01\x00\x02')
+[30/Dec/2023 06:56:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:56:21] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01¤JJ\x00\x00\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[30/Dec/2023 06:56:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:56:21] code 400, message Bad request version ('[ct\x00\x1b\x00\x03\x02\x00\x02\x00')
+[30/Dec/2023 06:56:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[30/Dec/2023 06:56:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+[30/Dec/2023 06:56:43] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[30/Dec/2023 06:56:43] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[30/Dec/2023 06:56:43] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[30/Dec/2023 06:56:43] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[30/Dec/2023 06:56:43] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[30/Dec/2023 06:56:43] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[30/Dec/2023 06:56:43] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[30/Dec/2023 06:57:03] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+[30/Dec/2023 06:57:08,995] - Broken pipe from ('152.58.91.147', 37836)
+[30/Dec/2023 06:57:09,000] - Broken pipe from ('152.58.91.147', 37870)
+[30/Dec/2023 06:57:21] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+Not Found: /favicon.ico
+[30/Dec/2023 06:57:21] "GET /favicon.ico HTTP/1.1" 404 2420
+[30/Dec/2023 06:57:27] "GET / HTTP/1.1" 200 6558
+[30/Dec/2023 06:57:28] "GET /static/assets/images/good.jpg HTTP/1.1" 304 0
+[30/Dec/2023 06:57:28] "GET /static/assets/images/perfect.jpg HTTP/1.1" 304 0
+[30/Dec/2023 06:57:28] "GET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[30/Dec/2023 06:57:48] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+Watching for file changes with StatReloader
+Error: That port is already in use.
+[30/Dec/2023 07:00:21] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4329
+[30/Dec/2023 07:00:31] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4163
+[30/Dec/2023 07:01:45] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4329
